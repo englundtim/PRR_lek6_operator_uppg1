@@ -16,5 +16,20 @@ public class App {
         System.out.println("Är tal1 > tal2?");
         System.out.println(tal1>=tal2);
 
+        System.out.println("Uppgift b)");
+
+        int[] fält1 = {4,5,2};
+        System.out.println("Är 4 < 5 eller 2?");
+        System.out.println(fält1[0]<=fält1[1]);
+        System.out.println(fält1[0]<=fält1[2]);
+        System.out.println("Är 4 > 5 eller 2?");
+        System.out.println(fält1[0]>=fält1[1]);
+        System.out.println(fält1[0]>=fält1[2]);
+        System.out.println("Är 4 = 5 eller 2?");
+        System.out.println(fält1[0]==fält1[1]);
+        System.out.println(fält1[0]==fält1[2]);
+        
+
+
     }
 }
